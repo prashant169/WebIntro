@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is description">
+    <meta name="keywards" content="Html toturial, Webdevelopment">
+    <meta name="robots" content="Index ,Folow "> <!-- metada about data  -->
+
+    <title>Forms</title>
+
+</head>
+
+<body>
+    <h2>This is forms toturial</h2>
+    <form action="backend.php">
+        <label for="Name">Name</label>
+        <div>
+            <input type="text" name="myName" id="Name">
+        </div>
+        <br>
+        <label for="MyRoll">MyRoll</label>
+        <div>
+            <input type="text" name="myRoll" id="MyRoll">
+        </div>
+        <br>
+        <label for="MyEmail">MyEmail</label>
+        <div>
+            <input type="email" name="myEmail" id="MyEmail">
+        </div>
+        <br>
+        <label for="Date">Date</label>
+        <div>
+            <input type="date" name="" id="Date">
+        </div>
+        <br>
+        <label for="Bonous">Bonous</label>
+        <div>
+            <input type="number" name="" id="Bonous">
+
+        </div>
+        <br>
+        <!-- input:butten shortcut -->
+        <!-- alt + up own arrow to move dive tag up and down -->
+        <div>
+            Gender: <input type="radio" name="My Gender">FeMale<input type="radio" name="Male">Other<input type="radio"
+                name="Male">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="My Eligibility" checked>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="MyCar" id="car">
+                <option value="Indica"></option>
+                <option value="Swift"></option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write about yourself :<br> <textarea name="Textarea" cols="30" rows="10"> </textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body>
+
+</html>
